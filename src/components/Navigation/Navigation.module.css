@@ -1,0 +1,19 @@
+.NavContainer {
+    padding: 0px 30px;
+    background-color: #c7d0d8;
+    border: 1px solid grey;
+}
+
+.Nav {
+    display: flex;
+}
+
+.Nav h1 {
+    font-size: 2.2em;
+    margin: 10px 0 5px 0;
+}
+
+.Nav ul {
+    display: flex;
+    margin: 0px 0;
+}

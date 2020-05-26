@@ -1,0 +1,49 @@
+.TicketContainer {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    border: 5px solid #c7d0d8;
+    text-align: left;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.TicketContainer h5 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.TicketContainer p {
+    font-size: small;
+}
+
+
+.ID::before {
+    content: "";
+    background-image: url('/images/flag.svg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding: 0px 0px 10px 25px;
+}
+
+.Description {
+    border-bottom: 4px solid #c7d0d8;
+    padding-bottom: 15px;
+}
+
+.Date {
+    text-align: right;
+    position: relative;
+}
+
+.Date::before {
+    position: absolute;
+    content: "";
+    background-image: url('/images/calendar.svg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    right: 75px;
+    top:0.2px;
+    padding: 0px 0px 20px 25px;
+}
+

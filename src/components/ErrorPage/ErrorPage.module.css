@@ -1,0 +1,18 @@
+.ErrorWrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 120px auto;
+    padding: 20px 50px 50px 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 10;
+}
+
+.Hidden {
+    display: none;
+}

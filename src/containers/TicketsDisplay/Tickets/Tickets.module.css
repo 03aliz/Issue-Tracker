@@ -1,0 +1,13 @@
+.Tickets {
+    width: 20%;
+}
+
+.CategoryTitle {
+    width: 100%;
+    background-color: #c7d0d8;
+    text-align: center;
+}
+
+.CategoryTitle h4 {
+  padding: 5px;
+}

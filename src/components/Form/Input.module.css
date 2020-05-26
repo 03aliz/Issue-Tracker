@@ -1,0 +1,21 @@
+form {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.InputWrapper {
+   display: table-row;
+}
+
+label {
+    display: table-cell;
+}
+
+.Input {
+    display: table-cell;
+    margin: 20px;
+    outline: none;
+    box-sizing: border-box;
+    vertical-align:middle;
+}

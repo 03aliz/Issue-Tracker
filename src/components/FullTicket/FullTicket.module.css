@@ -1,0 +1,73 @@
+.Overlay {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.TicketWrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 120px auto;
+    padding: 20px 50px 50px 50px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.TicketWrapper p {
+    word-wrap: break-word;
+}
+
+.TicketNo {
+    display: inline-block;
+}
+
+.PencilIcon {
+    content: "";
+    background-image: url("/images/pen.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding:20px 20px 0 0px ;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.Supp {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table th {
+    width: 90px;
+    padding: 0 20px;
+}
+
+.Cancel {
+    margin: 30px 0;
+}
+
+.InputWrapper {
+    display: table-row;
+}
+
+.InputWrapper label {
+    display: table-cell;
+}
+
+.FormElem {
+    display: table-cell;
+    margin: 20px 0;
+    vertical-align: middle;
+}

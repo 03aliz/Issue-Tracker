@@ -1,0 +1,13 @@
+.TicketsContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.DisableScroll {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    height: 550px;
+    overflow: hidden;
+}

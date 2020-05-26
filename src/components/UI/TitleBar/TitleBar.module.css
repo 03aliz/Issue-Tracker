@@ -1,0 +1,15 @@
+.TitleContainer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #eff0f2;
+    padding: 0px 30px;
+}
+
+.TitleContainer h3 {
+
+    cursor: pointer;
+}
+
+.Plus {
+   font-size: 1.2em;
+}
